@@ -4,7 +4,7 @@ import {
   makeStyles,
   ListItemIcon,
 } from "@material-ui/core";
-//import DeleteIcon from "@material-ui/icons/Delete";
+import { DeleteOutlineSharp } from "@mui/icons-material";
 
 const useStyle = makeStyles({
   list: {
@@ -25,9 +25,9 @@ const Transaction = ({ transaction, deleteTransaction }) => {
       style={{ background: `${color}`, color: "#fff" }}
       className={classes.list}
     >
-      {/* <ListItemIcon>
-        <DeleteIcon onClick={() => deleteTransaction(transaction.id)} />
-      </ListItemIcon> */}
+      <ListItemIcon>
+        <DeleteOutlineSharp onClick={() => deleteTransaction(transaction.id)} />
+      </ListItemIcon>
       <ListItemText primary={transaction.text} />
       <ListItemText primary={amount} />
     </ListItem>
