@@ -1,6 +1,6 @@
 # Expense-Tracker
 Expense Tracker App using ReactJS
-Link is givrn here -> https://tracker-react-d5037b.netlify.app/
+Link is given here -> https://tracker-react-d5037b.netlify.app/
 
 Sccrenshot of my project
 
